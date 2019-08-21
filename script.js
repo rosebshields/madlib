@@ -13,7 +13,7 @@
       function writeStory(){
             var launchedStory = "";
             launchedStory += "Once upon a time Mickey and his friend " + name.value;
-            launchedStory += " decided to go " + verb1.value + " because they had such a " + adjective1.value + " friendship ";
+            launchedStory += " decided to go " + verb1.value + " because they had such a " + adjective1.value + " friendship. ";
             launchedStory += " It was a " + adjective2.value + " day and they were so " + feeling.value + " to be spending the day together.";
             launchedStory += " They vowed to be the " + adjective3.value + " of friends and hangout again soon.";
             launchedStory += " As the day came to a close they " + pasttenseverb.value + " all the way home and gave eachother a " + noun.value + " symbolizing such a wonderful time. The end.";
