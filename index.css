@@ -1,8 +1,36 @@
-body {
-    font-family: 'Delius';font-size: 22px;
+body, button {
+    font-family: 'Delius';
+    font-size: 22px;
+}
+ 
+.fold {
+    background: rgb(255, 187, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 4em 8em;
 }
 
-.img {
-    /* width: 25em;  */
-    margin: 2em 0;
+#story{
+    width: 50%;
+    padding: 0 2em;
+}
+
+.image .img {
+    width: 80%;
+}
+.image .img:hover {
+    transform: scale(1.5, 1.5);
+}
+.image {
+    margin: 2em;
+    width: 10em;
+    height: 10em;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    background: #222;
+}
+
+.buttonWrapper {
+    text-align: center;
 }
